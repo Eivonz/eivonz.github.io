@@ -1,5 +1,6 @@
-title: Coding Corner
-description: -
+title: all*Sec
+description: Everything from development to reverse engineering
 show_downloads: false
+relative_permalinks: false
 google_analytics:
 theme: jekyll-theme-cayman
