@@ -3,4 +3,4 @@ description: Everything from development to reverse engineering
 show_downloads: false
 relative_permalinks: false
 google_analytics:
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman 
