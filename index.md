@@ -28,6 +28,6 @@ Various stuff related to development, reverse engineenering and related.
 <p>{{ post.date | date: "%b %-d, %Y" }}</p>
 <h2><a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a></h2>
 
-{{ post.excerpt | markdownify | truncatewords: 30 }}
+{{ post.excerpt | markdownify | truncatewords: 20 }}
 
 {% endfor %}

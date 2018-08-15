@@ -1,0 +1,28 @@
+// @-moz-document domain("github.com"), domain("gist.github.com")
+
+//	.word-wrap { background-color: red; display: block; width: 20px; height: 20px }
+	
+	.word-wrap + .highlighter-rouge {
+		.highlight > pre,
+		pre > code {
+			white-space: pre-wrap !important;
+//			word-break: break-all !important;
+			overflow-wrap: break-word !important;
+			display: block !important;
+		}
+	}
+
+	.blob-code-inner,
+  .markdown-body pre > code,
+  .markdown-body .highlight > pre
+  {
+    white-space: pre-wrap !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+    display: block !important;
+  }
+
+  td.blob-code-inner
+  {
+    display: table-cell !important;
+  }

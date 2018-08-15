@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 //@import "nav";
 @import "blog";
+@import "codeblock-wordwrap";
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
